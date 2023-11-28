@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f6d104cb95.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/mal-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Sevices</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li id="close-icon" style="display: none;"></li><i class="fas fa-times" onclick="closemenu()"></i>
+                    </li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>VideoGrapher/Photographer</p>
+                <h1>Hi I'm <span>MAL DINAS</span><br>Welcome To my Website</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/maluser.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>i'm 21 years old. Has 5 siblings. Malaysian citizen and lives in Ukay Bitari.
+                        Spends free time to write some quotes and playing sports such as volleyball.
+                        Has a friendly character and easily adapts to new environments.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designer application and website</li>
+                            <li><span>Videographer</span><br>Focus, exposure and angles.</li>
+                            <li><span>Photographer</span><br>artistic vision, technical
+                                knowledge of cameras and an understanding of light and shade</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Designing a poster</li>
+                            <li><span>2021 - 2022</span><br>Making a short film</li>
+                            <li><span>2019 - 2021</span><br>Photoshoot for wedding/event</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Bachelor of Informatic Media at Unisza</li>
+                            <li><span>2022</span><br>STPM sains Social from SMK HULU KELANG</li>
+                            <li><span>2019</span><br>SPM accounting from SMK SERI KERAMAT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Serivces--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2>Designing</h2>
+                    <p>professionals who create visual concepts
+                        to communicate ideas that inspire, inform,
+                        or captivate consumers</p>
+                    <a href="https://wa.link/3cege4">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h2>Photography</h2>
+                    <p>professionals who use cameras to capture images of people, places, or things.
+                        My work in a variety of fields, including advertising,
+                        journalism, and fine arts.</p>
+                    <a href="https://pin.it/1rwQfa7">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Videography</h2>
+                    <p>professionals who use video cameras to capture moving images and sound recordings.
+                        They work in a variety of fields, including television, advertising, and film.</p>
+                    <a href="https://youtube.com/@wasproduction8907?si=qKF0jayf1Db2odEM">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/poster.jpeg">
+                    <div class="layer">
+                        <h3>Poster</h3>
+                        <p>Some poster that requested by a client,I am using a canva tools to edit</p>
+                        <a href="https://pin.it/20YacUX"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/gambar.png">
+                    <div class="layer">
+                        <h3>Photoshoot</h3>
+                        <p>A photo that i take usign a right angles,lighting and positioning
+                            I using a lightroom,Ai photoshop to edit
+                        </p>
+                        <a href="https://pin.it/iWYk1ZA"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/video.png">
+                    <div class="layer">
+                        <h3>Videography</h3>
+                        <p>A short film that story about one's student that totally changes because of
+                            one tragedy that make themselves traumatise.Using a capcut as a main tools</p>
+                        <a href="https://youtu.be/XBzqHWVeqQM?si=XFXFIy1EN_5y6Jgy&t=21"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> Maldinas123@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +60173864901</p>
+                    <div class="social-icons">
+                        <a href="https://pin.it/1rwQfa7"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://x.com/maldnas?s=21"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/dienasz_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com/@wasproduction8907?si=qKF0jayf1Db2odEM"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="images/Malcv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © by Mal.Lahni</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.top = "-200";
+        }
+    </script>
+    <script>
+        function openmenu() {
+            document.getElementById("sidemenu").style.width = "400px";
+            document.getElementById("close-icon").style.display = "block";
+        }
+        function closemenu() {
+            document.getElementById("sidemenu").style.width = "0";
+            document.getElementById("close-icon").style.display = "none";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbys0bxpNlwoDm7D-ojftkALZAOosgw3kLC4QL1dINASImiQa6cj1O-IV_6h5Eye6kQy/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message senet successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
